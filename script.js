@@ -4,7 +4,7 @@ let last2 = document.getElementById("last2");
 let last3 = document.getElementById("last3");
 let buttons = document.querySelectorAll(".button");
 Array.from(buttons).forEach((button) => {
-  button.addEventListener("click", (e) => {
+  button.addEventListener('tap', (e) => {
     if (e.target.innerHTML == "C") {
       string = "";
       document.querySelector(".answerinput").value = string;
