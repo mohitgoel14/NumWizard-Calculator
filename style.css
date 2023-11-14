@@ -54,6 +54,10 @@ body {
   font-weight: 900;
   font-size: 3rem;
 }
+.left button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
 
 .right {
   text-align: center;
